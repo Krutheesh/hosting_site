@@ -397,12 +397,15 @@ color:rgb(141, 141, 141) ;
   width: 45%;
   border-radius: 1.5rem;
   padding: 1rem;
+  margin: 1rem;
 }
 .sec5-bottom{
-  overflow: scroll;
+
   margin-top: 5rem;
   color: white;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .user{
   padding: 1.5rem 0;
@@ -411,7 +414,21 @@ color:rgb(141, 141, 141) ;
 .stars{
   padding: 1.5rem 0;
 }
-
+@media screen and (max-width:768px){
+  .sec5-bottom{
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec5-bottom-left{
+    background-color: black;
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
 
 /* footer section starts here */
 
